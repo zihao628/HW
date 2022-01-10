@@ -1,0 +1,6 @@
+dist: Xenial
+services:
+  - docker
+script:
+  - sudo apt install git
+  - bash data/verify.sh
